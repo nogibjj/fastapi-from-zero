@@ -5,6 +5,10 @@ A repository to demonstrate FastAPI
 
 /docs get to swagger
 
+![fastapi](https://user-images.githubusercontent.com/58792/192342466-e043cce7-c4f4-4811-9d0c-68fb884daadf.png)
+
+
+
 ## Docker
 
 `docker build .`
