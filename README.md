@@ -1,3 +1,5 @@
+[![CI](https://github.com/nogibjj/fastapi-from-zero/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/fastapi-from-zero/actions/workflows/main.yml)
+
 # fastapi-from-zero
 A repository to demonstrate FastAPI
 
