@@ -4,3 +4,4 @@ pytest
 pylint
 uvicorn[standard]
 wikipedia
+pytest-cov

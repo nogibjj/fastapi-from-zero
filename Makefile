@@ -6,7 +6,7 @@ lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py logic/*.py
 
 test:
-	python -m pytest -vv --cov=app test_*.py
+	python -m pytest -vv --cov=main --cov=logic test_*.py
 
 format:
 	black *.py logic/*.py
