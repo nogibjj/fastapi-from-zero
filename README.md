@@ -16,6 +16,10 @@ A repository to demonstrate FastAPI
 `docker run -p 127.0.0.1:8080:8080 93fa55efa692` <replace with your image>
 
 ### Cloud9 + ECR + App Runner
+
+  ![continuous-delivery](https://user-images.githubusercontent.com/58792/192845522-09207ae8-0dfb-4d31-b0a3-d396765d0db7.png)
+
+  
   
 * Clone repo into Cloud9 (pick a machine with decent size CPU and RAM if possible, but students should use micro)
 * Add ssh keys to GitHub
@@ -40,6 +44,12 @@ A repository to demonstrate FastAPI
   <img width="1835" alt="Screen Shot 2022-09-28 at 12 41 21 PM" src="https://user-images.githubusercontent.com/58792/192839558-7f1f0e55-7f5b-4af6-99f1-66d0512a41d6.png">
 
 * Setup AWS Code Build to push container after each build (which triggers auto-deploy)  
+  
+  <img width="1835" alt="Screen Shot 2022-09-28 at 12 50 19 PM" src="https://user-images.githubusercontent.com/58792/192843483-e0a48ae6-95c1-4758-8928-40c33939cb9f.png">
+
+  
+See following [buildspec.yml](https://github.com/nogibjj/fastapi-from-zero/blob/main/buildspec.yml)
+and [Makefile](https://github.com/nogibjj/fastapi-from-zero/blob/main/Makefile)
   
 ## References
 
