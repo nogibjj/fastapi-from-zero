@@ -1,8 +1,9 @@
 from logic.fruit import get_fruit
 from logic.add import adder
 
+
 def test_adder():
-    assert 2 == adder(1,1)
+    assert 2 == adder(1, 1)
 
 
 def test_fruit():

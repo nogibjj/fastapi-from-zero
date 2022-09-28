@@ -7,6 +7,7 @@ from logic.wiki import wiki_search, wiki_page, wiki_keywords
 
 app = FastAPI()
 
+
 class Wiki(BaseModel):
     name: str
 
@@ -17,16 +18,18 @@ async def root():
 
     return {"message": "Hello FastAPI"}
 
+
 @app.get("/fruit")
 async def fruit():
     """Use a library to get a random fruit"""
 
     return {"fruit": get_fruit()}
 
+
 @app.post("/search")
 async def search(wiki: Wiki):
     """Search Wikipedia for a name
-    
+
     Parameters
     ----------
     wiki : Wiki
@@ -35,6 +38,7 @@ async def search(wiki: Wiki):
     """
 
     return wiki_search(wiki.name)
+
 
 @app.post("/page")
 async def page(wiki: Wiki):
@@ -47,6 +51,7 @@ async def page(wiki: Wiki):
     """
 
     return wiki_page(wiki.name)
+
 
 @app.post("/keywords")
 async def keywords(wiki: Wiki):
