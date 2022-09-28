@@ -16,6 +16,10 @@ A repository to demonstrate FastAPI
 `docker run -p 127.0.0.1:8080:8080 93fa55efa692` <replace with your image>
 
 ### Cloud9 + ECR + App Runner
+
+  ![continuous-delivery](https://user-images.githubusercontent.com/58792/192845522-09207ae8-0dfb-4d31-b0a3-d396765d0db7.png)
+
+  
   
 * Clone repo into Cloud9 (pick a machine with decent size CPU and RAM if possible, but students should use micro)
 * Add ssh keys to GitHub
