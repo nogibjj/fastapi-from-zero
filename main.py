@@ -5,6 +5,7 @@ from logic.fruit import get_fruit
 from logic.wiki import wiki_search, wiki_page, wiki_keywords
 
 
+
 app = FastAPI()
 
 
@@ -78,4 +79,5 @@ async def add(num1: int, num2: int):
 
 
 if __name__ == "__main__":
+    print("I was here")
     uvicorn.run(app, port=8080, host="0.0.0.0")
