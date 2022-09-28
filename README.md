@@ -27,8 +27,19 @@ A repository to demonstrate FastAPI
 
 <img width="1835" alt="Screen Shot 2022-09-28 at 12 32 52 PM" src="https://user-images.githubusercontent.com/58792/192836641-cd7ef757-4a4b-4722-bb17-d88980f4e9d4.png">
 
-  
+ * Create ECR repository by right-click in Cloud9
+ 
+  <img width="1835" alt="Screen Shot 2022-09-28 at 12 34 44 PM" src="https://user-images.githubusercontent.com/58792/192837619-b4ebd0fc-d464-4c06-a382-0a25c6028579.png">
 
+* Navigate to ECR repo created <cdfastapi> or whatever you named it and follow "push" instructions
+  
+  <img width="1835" alt="Screen Shot 2022-09-28 at 12 36 45 PM" src="https://user-images.githubusercontent.com/58792/192838151-ca89bdc1-bb99-40dc-ace1-f059e07ba5f6.png">
+
+* Navigate to AWS App Runner and Setup Continuous Delivery using ECR
+  
+  <img width="1835" alt="Screen Shot 2022-09-28 at 12 41 21 PM" src="https://user-images.githubusercontent.com/58792/192839558-7f1f0e55-7f5b-4af6-99f1-66d0512a41d6.png">
+
+  
   
 ## References
 
