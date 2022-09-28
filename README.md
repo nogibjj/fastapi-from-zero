@@ -39,7 +39,7 @@ A repository to demonstrate FastAPI
   
   <img width="1835" alt="Screen Shot 2022-09-28 at 12 41 21 PM" src="https://user-images.githubusercontent.com/58792/192839558-7f1f0e55-7f5b-4af6-99f1-66d0512a41d6.png">
 
-  
+* Setup AWS Code Build to push container after each build (which triggers auto-deploy)  
   
 ## References
 
