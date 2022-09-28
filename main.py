@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import uvicorn
 from logic.fruit import get_fruit
-from logic.wiki import wiki_search, wiki_page
+from logic.wiki import wiki_search, wiki_page, wiki_keywords
 
 
 app = FastAPI()
@@ -47,6 +47,19 @@ async def page(wiki: Wiki):
     """
 
     return wiki_page(wiki.name)
+
+@app.post("/keywords")
+async def keywords(wiki: Wiki):
+    """Get keywords from Wikipedia
+    Parameters
+    ----------
+    wiki : Wiki
+        A Wiki object with a name attribute
+    returns : list
+    """
+
+    return wiki_keywords(wiki.name)
+
 
 @app.get("/add/{num1}/{num2}")
 async def add(num1: int, num2: int):
