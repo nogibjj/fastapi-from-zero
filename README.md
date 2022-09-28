@@ -41,6 +41,12 @@ A repository to demonstrate FastAPI
 
 * Setup AWS Code Build to push container after each build (which triggers auto-deploy)  
   
+  <img width="1835" alt="Screen Shot 2022-09-28 at 12 50 19 PM" src="https://user-images.githubusercontent.com/58792/192843483-e0a48ae6-95c1-4758-8928-40c33939cb9f.png">
+
+  
+See following [buildspec.yml](https://github.com/nogibjj/fastapi-from-zero/blob/main/buildspec.yml)
+and [Makefile](https://github.com/nogibjj/fastapi-from-zero/blob/main/Makefile)
+  
 ## References
 
 * [FastAPI Docker docs](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker)
