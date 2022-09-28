@@ -5,3 +5,4 @@ pylint
 uvicorn[standard]
 wikipedia
 pytest-cov
+git+https://github.com/LIAAD/yake
